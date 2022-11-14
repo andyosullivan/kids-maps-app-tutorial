@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B61EB57E28E3BD1A00E64094 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61EB57D28E3BD1A00E64094 /* AppDelegate.swift */; };
+		B61EB58028E3BD1A00E64094 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61EB57F28E3BD1A00E64094 /* SceneDelegate.swift */; };
+		B61EB58228E3BD1A00E64094 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61EB58128E3BD1A00E64094 /* ViewController.swift */; };
+		B61EB58528E3BD1A00E64094 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B61EB58328E3BD1A00E64094 /* Main.storyboard */; };
+		B61EB58728E3BD1A00E64094 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B61EB58628E3BD1A00E64094 /* Assets.xcassets */; };
+		B61EB58A28E3BD1A00E64094 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B61EB58828E3BD1A00E64094 /* LaunchScreen.storyboard */; };
+		B68D864728EF763F00C26BD5 /* NetworkCalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68D864628EF763F00C26BD5 /* NetworkCalls.swift */; };
+		E7AED8ABCECB5A921815E737 /* libPods-BoredCarApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3437B4C1A2783FD5253A89D2 /* libPods-BoredCarApp.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3437B4C1A2783FD5253A89D2 /* libPods-BoredCarApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BoredCarApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A214B2AFC73D61614CE9A06 /* Pods-BoredCarApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoredCarApp.debug.xcconfig"; path = "Target Support Files/Pods-BoredCarApp/Pods-BoredCarApp.debug.xcconfig"; sourceTree = "<group>"; };
+		AF5843EF113B3E7103977705 /* Pods-BoredCarApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoredCarApp.release.xcconfig"; path = "Target Support Files/Pods-BoredCarApp/Pods-BoredCarApp.release.xcconfig"; sourceTree = "<group>"; };
+		B61EB57A28E3BD1A00E64094 /* BoredCarApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoredCarApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B61EB57D28E3BD1A00E64094 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B61EB57F28E3BD1A00E64094 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B61EB58128E3BD1A00E64094 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B61EB58428E3BD1A00E64094 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B61EB58628E3BD1A00E64094 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B61EB58928E3BD1A00E64094 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B61EB58B28E3BD1A00E64094 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B68D864628EF763F00C26BD5 /* NetworkCalls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkCalls.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B61EB57728E3BD1A00E64094 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7AED8ABCECB5A921815E737 /* libPods-BoredCarApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		472D58F88D7C25BC4763C618 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3437B4C1A2783FD5253A89D2 /* libPods-BoredCarApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B61EB57128E3BD1A00E64094 = {
+			isa = PBXGroup;
+			children = (
+				B61EB57C28E3BD1A00E64094 /* BoredCarApp */,
+				B61EB57B28E3BD1A00E64094 /* Products */,
+				E63A4B71B6B3BEC57E4EDCD5 /* Pods */,
+				472D58F88D7C25BC4763C618 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B61EB57B28E3BD1A00E64094 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B61EB57A28E3BD1A00E64094 /* BoredCarApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B61EB57C28E3BD1A00E64094 /* BoredCarApp */ = {
+			isa = PBXGroup;
+			children = (
+				B68D864528EF761E00C26BD5 /* Services */,
+				B61EB57D28E3BD1A00E64094 /* AppDelegate.swift */,
+				B61EB57F28E3BD1A00E64094 /* SceneDelegate.swift */,
+				B61EB58128E3BD1A00E64094 /* ViewController.swift */,
+				B61EB58328E3BD1A00E64094 /* Main.storyboard */,
+				B61EB58628E3BD1A00E64094 /* Assets.xcassets */,
+				B61EB58828E3BD1A00E64094 /* LaunchScreen.storyboard */,
+				B61EB58B28E3BD1A00E64094 /* Info.plist */,
+			);
+			path = BoredCarApp;
+			sourceTree = "<group>";
+		};
+		B68D864528EF761E00C26BD5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B68D864628EF763F00C26BD5 /* NetworkCalls.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		E63A4B71B6B3BEC57E4EDCD5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A214B2AFC73D61614CE9A06 /* Pods-BoredCarApp.debug.xcconfig */,
+				AF5843EF113B3E7103977705 /* Pods-BoredCarApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B61EB57928E3BD1A00E64094 /* BoredCarApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B61EB58E28E3BD1A00E64094 /* Build configuration list for PBXNativeTarget "BoredCarApp" */;
+			buildPhases = (
+				4C78ED1B1DAF99592C3C31AD /* [CP] Check Pods Manifest.lock */,
+				B61EB57628E3BD1A00E64094 /* Sources */,
+				B61EB57728E3BD1A00E64094 /* Frameworks */,
+				B61EB57828E3BD1A00E64094 /* Resources */,
+				0F606B960801A6DA126844D5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BoredCarApp;
+			productName = BoredCarApp;
+			productReference = B61EB57A28E3BD1A00E64094 /* BoredCarApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B61EB57228E3BD1A00E64094 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					B61EB57928E3BD1A00E64094 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = B61EB57528E3BD1A00E64094 /* Build configuration list for PBXProject "BoredCarApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B61EB57128E3BD1A00E64094;
+			productRefGroup = B61EB57B28E3BD1A00E64094 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B61EB57928E3BD1A00E64094 /* BoredCarApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B61EB57828E3BD1A00E64094 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B61EB58A28E3BD1A00E64094 /* LaunchScreen.storyboard in Resources */,
+				B61EB58728E3BD1A00E64094 /* Assets.xcassets in Resources */,
+				B61EB58528E3BD1A00E64094 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F606B960801A6DA126844D5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BoredCarApp/Pods-BoredCarApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BoredCarApp/Pods-BoredCarApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BoredCarApp/Pods-BoredCarApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C78ED1B1DAF99592C3C31AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BoredCarApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B61EB57628E3BD1A00E64094 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B61EB58228E3BD1A00E64094 /* ViewController.swift in Sources */,
+				B61EB57E28E3BD1A00E64094 /* AppDelegate.swift in Sources */,
+				B68D864728EF763F00C26BD5 /* NetworkCalls.swift in Sources */,
+				B61EB58028E3BD1A00E64094 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B61EB58328E3BD1A00E64094 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B61EB58428E3BD1A00E64094 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B61EB58828E3BD1A00E64094 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B61EB58928E3BD1A00E64094 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B61EB58C28E3BD1A00E64094 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B61EB58D28E3BD1A00E64094 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B61EB58F28E3BD1A00E64094 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A214B2AFC73D61614CE9A06 /* Pods-BoredCarApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.3;
+				DEVELOPMENT_TEAM = 4X27LTNU5L;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BoredCarApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "How Long Until We're There";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Location information is used to get time to destination.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.toraiocht.BoredCarApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B61EB59028E3BD1A00E64094 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF5843EF113B3E7103977705 /* Pods-BoredCarApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.3;
+				DEVELOPMENT_TEAM = 4X27LTNU5L;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BoredCarApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "How Long Until We're There";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Location information is used to get time to destination.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.toraiocht.BoredCarApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B61EB57528E3BD1A00E64094 /* Build configuration list for PBXProject "BoredCarApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B61EB58C28E3BD1A00E64094 /* Debug */,
+				B61EB58D28E3BD1A00E64094 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B61EB58E28E3BD1A00E64094 /* Build configuration list for PBXNativeTarget "BoredCarApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B61EB58F28E3BD1A00E64094 /* Debug */,
+				B61EB59028E3BD1A00E64094 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B61EB57228E3BD1A00E64094 /* Project object */;
+}
