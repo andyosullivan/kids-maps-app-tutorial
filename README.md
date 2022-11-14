@@ -9,4 +9,4 @@ It's a fun app to allow kids to:
 
 You can see the published app here: https://apps.apple.com/ie/app/how-long-until-were-there/id6444370974
 
-and a high-level tutorial here:
+and a high-level tutorial here: https://lemarquisofandy.medium.com/tutorial-making-a-kids-maps-app-for-my-daughter-using-google-maps-10e6afb85f32
